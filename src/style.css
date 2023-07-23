@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+body{
+    background:hsl(30, 38%, 92%);
+}
+
+section{
+    width: 1440px;
+    height: 900px;
+    margin: 170px auto;
+    max-width: 1500px;
+    display: flex;
+    border-radius: 10px
+}
+#fila{
+    width: 100%;
+    display: flex;
+
+}
+#fila #foto img{
+    
+    border-radius: 10px 0px 0px 10px;
+    
+}
+#info{
+    width:100%;
+    padding-left: 4%;
+    border-radius: 10px;
+    background: hsl(0, 0%, 100%) ;
+    
+}
+#info h2{
+   font-size: 300%;
+   font-family: 'Montserrat', sans-serif;
+   margin-left: 10px;
+}
+#info h1{
+    font-size: 500%;
+    font-family: 'Fraunces', serif;
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    
+}
+#info p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 250%;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+#info article{
+    
+    width: 94%;
+
+}
+#info article ul #preciogrande{
+    font-size: 450%;
+    color: green;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+
+} 
+#info article ul li{
+    list-style: none;
+    font-size: 190%;
+    display: inline-block;
+   
+    margin-left: 20px;
+}
+#info a{
+    
+    text-align: center;
+    width: 380px;
+    height: 60px;
+    margin-left: 50px;
+    background-color: rgba(8, 97, 89, 0.76);
+    color: #fff;
+    border-radius:15px;
+    padding-top: 20px;
+    display: inline-block;
+    font-size: 150% ;
+    font-family: 'Montserrat', sans-serif;
+}
+#info .boton img{
+    margin-right: 10px;
+    width: 25px;
+}
+
+#info a {
+    transition: 1s;
+
+}
+#info a:hover {
+   
+    background-color: rgb(23, 100, 81);
+    transform: scale(1.2);
+    
+}
